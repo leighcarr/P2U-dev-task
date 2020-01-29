@@ -1,0 +1,1 @@
+function myFunction(){document.getElementById("greeting_heading").textContent="Paragraph changed!",document.getElementById("greeting_intro").textContent="Paragraph changed!"}app.global={init:function(){console.log("load global functions"),app.global.loadHeader()},loadHeader:function(){console.log("loadHeader()")}},app.global.init(),console.log("Load script.js");var app={};
